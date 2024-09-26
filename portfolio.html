@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link href="portfolio.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">Dev's portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">projects</a></li>
+                    <li><a href="/">Contact me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="first">
+            <div class="leftsec">
+                Hi, my name is <span class="purple">Dev</span> 
+                <div>and I am a web Developer</div>
+                <span id="element"></span>
+            </div>
+            <div class="rightsec">
+                <img src="img/right port.webp" alt="Developer pic">
+            </div>
+        </section>
+        <br>
+        <section class="second">
+            <div class="sec2left">
+                <img src="img/section 2.webp" alt="Developer pic">
+            </div>
+            <div class="sec2right">
+                 What i  do 
+                <p>Full stack devloper who want to explore every tech stack</p>
+                <p>Devlop highly intractive frontend user interface for your web</p>
+            </div>
+        </section>
+        <br>
+        <section class="third">
+            <div class="thirdleft">
+                <img src="img/portfolio image.jpg" alt="profile image">
+            </div>
+            <div class="thirdright">
+                <p>Dev vishwakarma</p>
+                <p>Email- devgajvishwakarma@gmail.com </p>
+                <p>mob- 9993452181</p>
+                skills
+                <ul>
+                    <li>Html</li>
+                    <li>Css</li>
+                    <li>Javascript</li>
+                    <li>react js</li>
+                    <li>Sql</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Frontend  Devloper', 'web Designer'],
+          typeSpeed: 50,
+        });
+      </script>
+</body>
+</html>
